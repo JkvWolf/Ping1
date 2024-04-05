@@ -51,19 +51,19 @@ function draw() {
 
 function control() {
     
-    if (keyDown("UP_ARROW"){
+    if (keyDown("UP_ARROW")) {
         paddle1.y = paddle1.y+3
     }
     
-    if (keyDown("DOWN_ARROW"){
+    if (keyDown("DOWN_ARROW")) {
         paddle1.y = paddle1.y-3
     }
     
-    if (keyDown("W"){
+    if (keyDown("W")) {
         paddle2.y = paddle2.y+3
     }
     
-    if (keyDown("S"){
+    if (keyDown("S")) {
         paddle2.y = paddle2.y-3
     }
     
